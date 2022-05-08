@@ -5,9 +5,13 @@ ESP32-S3-RGB-Panel is an image and audio processing development platform based o
 ## Overview
 
 MCU: ESP32-S3
+
 Flash: 8MB, Psram: 8MB
+
 Display Interface： RGB565
+
 Screen: 4.0-inch display with 480x480 resolution, capacitive touch panel gt911
+
 Audio Codec: ES8311
 
 ### Hardware
