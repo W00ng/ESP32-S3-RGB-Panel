@@ -29,7 +29,7 @@ ESP32-S3-RGB-Panel runs on ESP-IDF. For details on getting ESP-IDF, please refer
 Run the following commands in your terminal to download ESP32-S3-RGB-Panel:
 
 ```bash
-git clone --recursive https://github.com/W00ng/ESP32-S3-EYE.git
+git clone --recursive https://github.com/W00ng/ESP32-S3-RGB-Panel.git
 ```
 
 > Remember to use ``git submodule update --recursive --init`` to pull and update submodules of ESP32-S3-RGB-Panel.
