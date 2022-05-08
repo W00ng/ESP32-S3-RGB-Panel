@@ -59,4 +59,4 @@ After flashing the program, press RST button to start the program.
 
 ## Support
 
-if you need any help, please connect: aemails@163.com
+if you need any help, please contact: aemails@163.com
