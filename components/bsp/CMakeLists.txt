@@ -1,0 +1,15 @@
+idf_component_register(
+    SRC_DIRS
+        "." 
+    INCLUDE_DIRS
+        "include"
+    REQUIRES 
+    driver
+    esp_common 
+    log
+    i2c_bus
+    i2c_devices
+    esp_lcd
+    lcd
+    fatfs
+    sdmmc)
