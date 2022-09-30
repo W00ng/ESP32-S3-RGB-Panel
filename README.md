@@ -60,3 +60,6 @@ After flashing the program, press RST button to start the program.
 ## Support
 
 if you need any help, please contact: aemails@163.com
+
+https://youtu.be/7Ld1lZMRFoQ
+
