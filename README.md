@@ -14,34 +14,31 @@ Screen: 4.0-inch display with 480x480 resolution, capacitive touch panel gt911
 
 Audio Codec: ES8311
 
-### Hardware
+## Hardware
 
 ![A00_1_en](https://user-images.githubusercontent.com/10337553/167306077-89350092-68f7-49cc-92f7-0d604405ac6f.png)
 
 ![A03_en](https://user-images.githubusercontent.com/10337553/167306096-f9c11c90-ed91-4f0f-b2c4-19f42dc6e1b9.png)
 
-### Software
+## Software
 
-#### Get ESP-IDF
+All the examples are stored in .../examples folder. Please build it with **ESP-IDF 5.0**
+![cf9bb940-f3d0-4c77-aea2-1a70621b6525](https://github.com/W00ng/ESP32-S3-RGB-Panel/assets/10337553/e7529af7-b5f8-465e-9cbd-4f91f170ed51)
 
-ESP32-S3-RGB-Panel runs on ESP-IDF. For details on getting ESP-IDF, please refer to [ESP-IDF Programming Guide](https://idf.espressif.com/).
-
-> Please use the latest version of ESP-IDF on the master branch.
-
-#### Get ESP32-S3-RGB-Panel
-
-Run the following commands in your terminal to download ESP32-S3-RGB-Panel:
+### Step 1: Enter the examples folder
+Open the terminal and go to any folder that stores examples (e.g. lvgl_demo):
 
 ```bash
-git clone --recursive https://github.com/W00ng/ESP32-S3-RGB-Panel.git
+cd ...\examples\lvgl_demo
 ```
 
-> Remember to use ``git submodule update --recursive --init`` to pull and update submodules of ESP32-S3-RGB-Panel.
+### Step 2: Build the example
 
-## Run Examples
+```bash
+idf.py build
+```
 
-All examples of ESP32-S3-RGB-Panel are stored in [examples](./examples) folder. 
-
+### Step 3: Flash and launch monitor
 Flash the program and launch IDF Monitor:
 
 ```bash
